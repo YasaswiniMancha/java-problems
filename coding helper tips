@@ -61,7 +61,7 @@ while (!maxHeap.isEmpty()) {  //loop until maxHeap becomes empty
         
 ->   Sliding Window Behavior to solve longest substring without repetition   // ex: yashyess   o/p: ashye
 
-         Set<Character> seen = new HashSet<>();   //we took empty hashset to find substrings first  , character set looks like   just for ex: [y,a,s,h,y,e,s,s]
+         Set<Character> seen = new HashSet<>();   //we took empty hashset to find substrings first  , character set looks like  -> just for ex: [y,a,s,h,y,e,s,s]
            int right=0;
            int left =0;
             
@@ -94,3 +94,5 @@ while (!maxHeap.isEmpty()) {  //loop until maxHeap becomes empty
         }
 
         System.out.println(sb.toString());  //it attaches the reversed string at end of given string o/p: popoddopop
+        
+-> 
