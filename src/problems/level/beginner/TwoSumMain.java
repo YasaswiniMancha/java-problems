@@ -42,10 +42,9 @@ public class TwoSumMain {
 
 class TwoSumSolution {
 
-	// ex: nums=[1, 2,3,4] and target= 4 then ==> result[]=(0,2)
 
 	public int[] twoSumUsingHashMap(int[] nums, int target) { // o(n) - time complexity
-		// Create a HashMap to store the value and its index
+		
 		Map<Integer, Integer> map = new HashMap<>();
 
 		// Loop through the array
@@ -61,7 +60,7 @@ class TwoSumSolution {
 
 			// Add the current number and its index to the HashMap
 			map.put(nums[i], i);
-		}
+	 }
 
 		// If no solution is found (though problem guarantees one), return an empty
 		// array
