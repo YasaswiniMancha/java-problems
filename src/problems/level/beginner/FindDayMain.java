@@ -5,7 +5,7 @@ import java.util.Scanner;
 class FindDay {
 	
     public static String findDay(int month, int day, int year) {
-       LocalDate date= LocalDate.of(year, month, day);
+        LocalDate date= LocalDate.of(year, month, day);
         return date.getDayOfWeek().toString();
     }
 
