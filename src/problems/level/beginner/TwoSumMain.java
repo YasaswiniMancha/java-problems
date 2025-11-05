@@ -21,7 +21,7 @@ public class TwoSumMain {
 		int target = sc.nextInt();
 		sc.close();
 
-		TwoSumSolution ts = new TwoSumSolution();
+		TwoSumSolution ts  = new TwoSumSolution();
 
 		int[] result = ts.twoSumUsingHashMap(nums, target);
 		System.out.println(
