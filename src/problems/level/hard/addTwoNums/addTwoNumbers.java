@@ -1,9 +1,15 @@
 package problems.level.hard.addTwoNums;
 
-class AddTwoNumbers {
-	
-	public NodeList addTwoNumbers(NodeList l1, NodeList l2) {
-		
+public class AddTwoNumbers {
+
+	public static void main(String[] args) {
+
+		addTwoNumbers(null, null);
+
+	}
+
+	public static NodeList addTwoNumbers(NodeList l1, NodeList l2) {
+
 		NodeList dummy = new NodeList(0);
 		NodeList curr = dummy;
 		int carry = 0;
@@ -19,8 +25,8 @@ class AddTwoNumbers {
 				l2 = l2.next;
 			}
 			carry = sum / 10;
-//			System.out.println(carry);
-//			System.out.println(sum % 10);
+//				System.out.println(carry);
+//				System.out.println(sum % 10);
 			curr.next = new NodeList(sum % 10);
 			curr = curr.next;
 		}
